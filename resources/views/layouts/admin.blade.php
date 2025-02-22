@@ -3,7 +3,7 @@
 
 <head>
     @include('layouts.partials.admin.head')
-    <title>Homepage | Algerie Telecom</title>
+    <title>Homepage | Algérie Télécom</title>
 </head>
 
 <body class="bg-light">
