@@ -3,7 +3,7 @@
      <div class="nav-scroller">
          <!-- Brand logo -->
          <a class="navbar-brand" href="index.html">
-            <img src="https://images.seeklogo.com/logo-png/46/2/algerie-telecom-logo-png_seeklogo-460479.png" alt="Algérie Télécom" style="width: 150px; display: block; margin: 0 auto;" />
+            <img src="{{ asset('admin_assets/images/brand/logo/logo-at.png') }}" alt="Algérie Télécom" style="width: 150px; display: block; margin: 0 auto;" />
         </a>
          <!-- Navbar nav -->
          <ul class="navbar-nav flex-column" id="sideNavbar">
