@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth; // Ajout de l'importation manquante
-<<<<<<< HEAD
+
 use App\Http\Controllers\ProfileController;
 
 
@@ -57,4 +57,3 @@ Route::get('/login/employee', [App\Http\Controllers\Auth\LoginController::class,
 // Employee login POST
 Route::post('/login/employee', [App\Http\Controllers\Auth\LoginController::class, 'employeeLogin'])
     ->name('login.employee.submit');
->>>>>>> c4f5a2e (Initial commit)

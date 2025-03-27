@@ -1,6 +1,11 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-tefaaaaaa7777777
+
+
+
+stingo ribok
+
+
 export default defineConfig({
     plugins: [
         laravel({
