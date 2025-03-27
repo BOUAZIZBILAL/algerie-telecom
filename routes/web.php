@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth; // Ajout de l'importation manquante
+<<<<<<< HEAD
 use App\Http\Controllers\ProfileController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -32,11 +35,26 @@ Route::middleware(['auth', 'user-role:admin'])->group(function () {
     
 });
 
-Route::middleware(['auth'])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
 
-    // Add the profile route
-    Route::get('/pages/profile.html', [ProfileController::class, 'show'])->name('profile');
-});
+
+// Route to display the role choice
+Route::get('/choose-role', function () {
+    return view('auth.choose-role');
+})->name('choose-role');
+
+// Admin login form
+Route::get('/login/admin', [App\Http\Controllers\Auth\LoginController::class, 'showAdminLoginForm'])
+    ->name('login.admin');
+
+// Admin login POST
+Route::post('/login/admin', [App\Http\Controllers\Auth\LoginController::class, 'adminLogin'])
+    ->name('login.admin.submit');
+
+// Employee login form
+Route::get('/login/employee', [App\Http\Controllers\Auth\LoginController::class, 'showEmployeeLoginForm'])
+    ->name('login.employee');
+
+// Employee login POST
+Route::post('/login/employee', [App\Http\Controllers\Auth\LoginController::class, 'employeeLogin'])
+    ->name('login.employee.submit');
+>>>>>>> c4f5a2e (Initial commit)

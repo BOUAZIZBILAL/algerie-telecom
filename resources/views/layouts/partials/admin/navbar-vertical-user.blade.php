@@ -39,13 +39,19 @@
                          <li class="nav-item">
                              <a class="nav-link  "
                                  href="pages/profile.html">
+<<<<<<< HEAD
                                  -Ajouter un utilisateur
+
+>>>>>>> c4f5a2e (Initial commit)
                              </a>
                          </li>
                          <li class="nav-item">
                              <a class="nav-link has-arrow   "
                                  href="pages/settings.html">
+<<<<<<< HEAD
                                  -Gerer les utilisateurs
+
+>>>>>>> c4f5a2e (Initial commit)
                              </a>
 
                          </li>               
@@ -55,6 +61,7 @@
               </li>
 
 
+<<<<<<< HEAD
              <!-- Nav item -->
              <li class="nav-item">
                  <a class="nav-link has-arrow  "
@@ -63,6 +70,8 @@
                      </i> Gestion des equipements
                  </a>
              </li>
+=======
+
              <!-- Nav item -->
              <li class="nav-item">
                  <a class="nav-link has-arrow  " href="#!"
@@ -94,7 +103,87 @@
              </li>
              
 
+<<<<<<< HEAD
   
+=======
+             <!-- Nav item -->
+             <li class="nav-item">
+                 <a class="nav-link has-arrow  "
+                     href="docs/accordions.html">
+                     <i data-feather="package" class="nav-icon icon-xs me-2">
+                     </i> History
+                 </a>
+             </li>
+
+
+             <li class="nav-item">
+                 <a class="nav-link has-arrow " href="#!"
+                     data-bs-toggle="collapse" data-bs-target="#navMenuLevel" aria-expanded="false"
+                     aria-controls="navMenuLevel">
+                     <i data-feather="corner-left-down" class="nav-icon icon-xs me-2">
+                     </i> System Alerts
+                 </a>
+                 <div id="navMenuLevel" class="collapse "
+                     data-bs-parent="#sideNavbar">
+                     <ul class="nav flex-column">
+                         <li class="nav-item">
+                             <a class="nav-link has-arrow "
+                                 data-bs-toggle="collapse" data-bs-target="#navMenuLevelSecond" aria-expanded="false"
+                                 aria-controls="navMenuLevelSecond">
+                                  Notifications
+                             </a>
+                             <div id="navMenuLevelSecond" class="collapse" data-bs-parent="#navMenuLevel">
+                                 <ul class="nav flex-column">
+                                     <li class="nav-item">
+                                         <a class="nav-link "
+                                             href="#!">-Warning Notifications</a>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a class="nav-link"
+                                             href="#!">-System Updates</a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </li>
+                         <li class="nav-item">
+                             <a class="nav-link has-arrow "
+                                 href="#!" data-bs-toggle="collapse" data-bs-target="#navMenuLevelThree"
+                                 aria-expanded="false" aria-controls="navMenuLevelThree">
+                                 Team Collaboration
+                             </a>
+                             <div id="navMenuLevelThree" class="collapse "
+                                 data-bs-parent="#navMenuLevel">
+                                 <ul class="nav flex-column">
+                                     <li class="nav-item">
+                                         <a class="nav-link "
+                                             href="#!" data-bs-toggle="collapse"
+                                             data-bs-target="#navMenuLevelThreeOne" aria-expanded="false"
+                                             aria-controls="navMenuLevelThreeOne">
+                                             -Task Assignment
+                                         </a>
+                                         <div id="navMenuLevelThreeOne"
+                                             class="collapse collapse "
+                                             data-bs-parent="#navMenuLevelThree">
+                                             <ul class="nav flex-column">
+                                                 <li class="nav-item">
+                                                     <a class="nav-link "
+                                                         href="#!">
+                                                   -Team Communication            </a>
+                                                 </li>
+                                             </ul>
+                                         </div>
+                                     </li>
+                                     <li class="nav-item">
+                                         <a class="nav-link "
+                                             href="#!"> -Team Roles</a>
+                                     </li>
+                                 </ul>
+                             </div>
+                         </li>
+                     </ul>
+                 </div>
+             </li>  
+>>>>>>> c4f5a2e (Initial commit)
 
              <!-- Nav item -->
              <li class="nav-item">
@@ -113,7 +202,11 @@
                  <a class="nav-link has-arrow "
                      href="docs/changelog.html">
                      <i data-feather="git-pull-request" class="nav-icon icon-xs me-2">
+<<<<<<< HEAD
                      </i> Historique
+=======
+                     </i> To-Do-list
+>>>>>>> c4f5a2e (Initial commit)
                  </a>
              </li>
          </ul>

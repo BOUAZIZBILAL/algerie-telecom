@@ -29,7 +29,10 @@
                  <a class="nav-link has-arrow " href="#!"
                      data-bs-toggle="collapse" data-bs-target="#navPages" aria-expanded="false"
                      aria-controls="navPages">
-                     <i data-feather="users" class="nav-icon icon-xs me-2">
+
+
+                     <i data-feather="layers" class="nav-icon icon-xs me-2">
+>>>>>>> c4f5a2e (Initial commit)
                      </i> Pages
                  </a>
 

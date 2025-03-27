@@ -124,7 +124,10 @@
             <h1>Bienvenue chez<br> Algerie Telecome</h1>
             <p class="lead">Accédez à votre compte ou inscrivez-vous pour commencer.</p>
             <div class="d-grid gap-3 d-sm-flex justify-content-center">
-                <a href="{{ route('login') }}" class="btn btn-custom btn-login">Se connecter</a>
+
+
+                <a href="{{ route('choose-role') }}" class="btn btn-custom btn-login">Se connecter</a>
+>>>>>>> c4f5a2e (Initial commit)
                 <a href="{{ route('register') }}" class="btn btn-custom btn-register">S'inscrire</a>
             </div>
         </div>
