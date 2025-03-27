@@ -7,6 +7,11 @@
 * Copyright 2020 Codescandy (https://codescandy.com/)
 * Designed and coded by https://codescandy.com
 ========================================================= */
+.bg-panel {
+  background: url("/admin_assets/images/background/bgat.png") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+}
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .align-baseline {
   vertical-align: baseline !important;

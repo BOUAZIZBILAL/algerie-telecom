@@ -1,0 +1,5 @@
+.bg-panel {
+    background: url("/admin_assets/images/background/bgat.png") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+}
